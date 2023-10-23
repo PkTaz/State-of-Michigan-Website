@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Michigan</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<header>
+    <img src="img/Main-Logo.png" alt="Michigan Seal of the State" class="mainlogo">
+    <nav>
+    <ul class="pagelinks">                                                           <!--UNORDERED LIST 1/1-->
+        <li><a href="cities.html" class="nav-pages">Cities to Visit</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Michigan" target="blank" class="nav-pages">History</a></li>  <!--EXTERNAL WEBSITE (IN NEW TAB) 1/1-->
+        <li><a href="statemap.html" class="nav-pages">State Map</a></li>
+        <li><a href="https://www.michigan.gov/mdhhs/assistance-programs" class="nav-pages">Programs</a></li>
+        <li><a href="careers.html" class="nav-pages">Careers</a></li>
+    </ul>
+    </nav>
+</header>
+<body>
+    <h1>Looking to Get Away?</h1>
+        <p class="main-content-text">
+            Experience the enchanting beauty of Michigan, 
+            a state where diverse landscapes meet limitless adventures. 
+            Explore pristine sandy shores along the Great Lakes, 
+            discover forests with vibrant fall foliage, 
+            and witness the beauty of countless lakes, rivers, and waterfalls. 
+            For outdoor enthusiasts, Michigan offers year-round activities, 
+            from thrilling water sports to snow-covered slopes, providing endless opportunities for excitement. 
+            Savor the culinary delights, indulge in world-renowned craft beers, 
+            and immerse yourself in the warm hospitality of its residents. 
+            Whether you seek escape, an adventure, or a cultural exploration, 
+            Michigan welcomes you with open arms. 
+        </p>
+        <img src="img/header-image1.jpg" alt="Stairs Leading to Lake" class="image1">
+            <aside class="awards">
+                <ul>
+                    <li>Capital</li>
+                    <li>Population</li>
+                    <li>GDP</li>
+                    <li>College Educated</li>
+                    <li>Median Income</li>
+                </ul>
+                <h2 class="stat1">Lansing</h2>
+                <h2 class="stat2">10,050,000</h2>
+                <h2 class="stat3">56,554 USD in 2021</h2>
+                <h2 class="stat4">18.06%</h2>
+                <h2 class="stat5">30,723 USD 2020</h2>
+            </aside>   
+        <div class="separator">
+    </div>
+    <h2>Recent News</h2>
+        <img src="img/gretchen-whitmer.jpg" alt="Gretchen Whitmer" class="gretchen-whitmer">
+        <img src="img/StateCapitol.jpg" alt="Michigan Capitol Building" class="state-capitol">
+        <img src="img/MichiganWeather.jpg" alt="Michigan Weather Map" class="weather-map">
+        <img src="img/michigan-vs-state.jpg" alt="Michigan players holding up trophy" class="michigan-football">
+    <ul class="recent-news-one">
+        <li><a href="random.link" class="gretchen-text">Gretchen Whitmer takes the Lead in Upcoming Election Polls</a></li>
+    </ul>
+    <ul class="recent-news-two">
+        <li><a href="random.link" class="capitol-text">The Capitol will recieve almost $30 Million for renovations</a></li>
+    </ul>
+    <ul class="recent-news-three">
+        <li><a href="random.link" class="weather-text">Michigan is heating things up!</a></li>
+    </ul>
+    <ul class="recent-news-four">
+        <li><a href="random.link" class="michigan-text">Michigan beats Michigan State with an upset.</a></li>
+    </ul>
+
+    <img src="img/events-image.jpg" alt="Mackinac Island with Horses" class="events-image">
+        <h3 class="events1"><em>Events Coming Up!</em></h3>
+    <a href="random.link" class="event-link">
+        <h4 class="events2">View Events &gt; &gt;</h4>
+    </a>
+    <img src="img/email-logo.png" alt="email logo" class="email-logo">
+    <div class="separator2"></div>
+    <div class="separator3"></div>
+
+</body>
+<footer>
+    <div class="form-container">
+        <h2>Subscribe to our Newsletter!</h2>
+        <form onsubmit="return validateEmails();">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Jane" class="input-field" required>
+            <br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" class="input-field" placeholder ="Doe" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field" placeholder="JaneDoe@gmail.com" required>
+            <br>
+
+            <label for="confirm_email">Confirm Email:</label>
+            <input type="email" id="confirm_email" name="confirm_email" class="input-field" placeholder="JaneDoe@gmail.com" required>
+            <br>
+
+            <label for="ask_question">Ask us a Question here:</label>
+            <input type="text" id="ask_question" name="ask_question" placeholder="What color is the sky?"class="input-field">
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <script>
+        function validateEmails() {
+            var email = document.getElementById('email').value;
+            var confirmEmail = document.getElementById('confirm_email').value;
+
+            if (email !== confirmEmail) {
+                alert("Emails do not match. Please make sure they are the same.");
+                return false; 
+            }
+
+            return true; 
+        }
+    </script>
+<img src="img/Michigan-Icon.png" class="michigan-icon">
+    <div class="contact-info">
+        <h5>Contact Us</h5>
+        <p class="contact-content">555-555-5555</p>
+        <p class="contact-content">michigan@gmail.com</p>
+        </div>
+        <ul class="footer-pages-1">
+            <li class="fp1"><a href="https://www.michigan.gov/dtmb/buildings">Locations</a></li>
+            <li class="fp1"><a href="https://www.michigan.gov/som/about-michigan">About</a></li>
+            <li class="fp1"><a href="https://www.michigan.gov/dtmb/services">Services</a></li>
+            <li class="fp1"><a href="https://www.michigan.gov/dtmb/dtmb-pa-370-contact-page">Opportunities</a></li>
+        </ul>
+        <ul class="footer-pages-2">
+            <li class="fp2"><a href="https://www.michigan.gov/dtmb/buildings">State Holidays</a></li>
+            <li class="fp2"><a href="https://www.michigan.gov/dtmb/buildings">Employee Search</a></li>
+            <li class="fp2"><a href="https://www.michigan.gov/som/government/state-license-search">State License Search</a></li>
+            <li class="fp2"><a href="https://www.michigan.gov/dtmb/policies/leg-reports">Local Government Forms</a></li>
+        </ul>
+        <ul class="footer-pages-3">
+            <li class="fp3"><a href=https://www.michigan.gov/dtmb/about/exec>Executive Branch</a></li>
+            <li class="fp3"><a href="https://www.michigan.gov/dtmb/about/newsroom">Election Dates</a></li>
+            <li class="fp3"><a href="https://www.michigan.gov/dtmb/about/newsroom">Vote Registration</a></li>
+            <li class="fp3"><a href="https://www.michigan.gov/dtmb/about/newsroom">News</a></li>
+        </ul>
+<img src="img/instagram-logo.png" class="insta-icon">
+<img src="img/facebook-logo.png" class="facebook-icon">
+<img src="img/x-logo.png" class="x-icon">
+<img src="img/youtube-logo.png" class="youtube-icon">
+</footer>
+</html>

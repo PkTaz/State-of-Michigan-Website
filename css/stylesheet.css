@@ -1,0 +1,456 @@
+* {
+    font-family: 'Times New Roman', Times, serif;   /* FONT FAMILY DECLARATION 1/1 */
+}
+
+
+header {
+   margin-left: 0;
+   padding: 0;
+   background-image: url('../img/header-image.jpg');
+   background-size: cover;
+   background-position: center; 
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3); 
+
+}
+
+
+.mainlogo {                         /* CLASS SELECTOR 1/1 */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+
+.pagelinks {
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    margin-left: 12%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.pagelinks li {
+    margin-right: 10.5%;
+}
+
+.nav-pages {
+    color: yellow;
+    text-decoration: none;
+}
+
+.stat1 {
+    font-size: 70%;
+    margin-top: -120%;
+    margin-right: 55%;
+    float: right;
+}
+
+.stat2 {
+    font-size: 70%;
+    margin-top: -95%;
+    margin-right: 47%;
+    float: right;
+}
+
+.stat3 {
+    font-size: 70%;
+    margin-top: -68%;
+    margin-right: 14%;
+    float: right;
+}
+
+.stat4 {
+    font-size: 70%;
+    margin-top: -39%;
+    margin-right: 53%;
+    float: right;
+}
+
+.stat5 {
+    font-size: 70%;
+    margin-top: -12%;
+    margin-right: 20%;
+    float: right;
+}
+
+
+.gretchen-text {
+    color: #275cb7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.capitol-text {
+    color: #275cb7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.weather-text {
+    color: #275cb7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.michigan-text {
+    color: #275cb7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;  /* HOVER PSUEDO CLASS 1/1 */
+}
+
+h1 {
+    margin-left: 42.5%;
+    font-size: 60px;
+    position: absolute;
+    
+    
+}
+
+.main-content-text {
+    margin-top: 7%;
+    font-size: 22px;
+    margin-left: 42%;
+    margin-right: 27%;
+    margin-bottom: 30px;
+    position: absolute;
+}
+
+.image1 {
+    width: 35%;
+    height: 35%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.awards {
+    font-size: 180%;
+    float: right;                                          /* FLOAT PROPERTY 1/1 */
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 77%;
+    margin-top: -24%;
+    padding-right: 9%;
+    padding-bottom: 3%;
+
+}
+
+.awards li {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+
+.separator {
+    border-top: 2px solid #ccc; 
+    margin: 40px 0; 
+}
+
+h2 {                                         /* ELEMENT SELECTOR  1/1 */
+    text-align: center;
+    font-size: 50px;
+}
+
+.gretchen-whitmer {
+    width: 15%;
+    height: 200px;
+    padding-left: 5%;
+} 
+
+.state-capitol {
+    width: 15%;
+    height: 200px;
+    padding-left: 10%;
+} 
+
+.weather-map {
+    width: 15%;
+    height: 200px;
+    padding-left: 10%;
+}
+
+.michigan-football {
+    width: 15%;
+    height: 200px;
+    padding-left: 10%;
+} 
+
+.recent-news-one {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    margin-left: 5%;
+    text-decoration: none;
+    
+}
+
+.recent-news-one li {
+    margin-right: 80%;
+    text-align: left;
+    margin-left: -3%;
+}
+
+.recent-news-two {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    margin-left: 5%;
+    text-decoration: none;
+    
+}
+
+.recent-news-two li {
+    margin-right: 50%;
+    margin-left: 24%;
+    margin-top: -4.5%;
+}
+
+.recent-news-three {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.recent-news-three li {
+    margin-left: 51%;
+    margin-top: -6%;
+}
+
+.recent-news-four {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.recent-news-four li {
+    margin-left: 78.5%;
+    margin-right: 5%;
+    margin-top: -7.5%;
+}
+
+.events-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.events1 {
+    font-size: 60px;               
+    position: absolute;                         /* ABSOLUTE POSITIONING 1/1 */
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 26%;
+    margin-top: -25%;
+    padding: 50px;
+    border-radius: 10px;
+}
+.events2 {
+    position: absolute; 
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: -19%;   
+}
+
+.event-link {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.event-link:hover {
+    color: purple;
+}
+
+.email-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+.separator2 {
+    position: relative;           /* RELATIVE POSITIONING 1/1 */
+    height: 2px;
+    background-color: gray;
+    width: 42.5%;
+    margin-top: -5%;
+}
+
+.separator3 {
+    position: absolute;                    
+    height: 2px;
+    background-color: gray;
+    width: 42.5%;
+    margin-left: 57%;
+}
+
+
+.input-field {
+    
+    width: 50%;
+    padding: 1%;
+    border: 2px solid #3498db;
+    border-radius: 10%;
+    margin: 2% auto;
+    font-size: 16px;
+    
+}
+
+
+
+#first_name {                                        /* ID SELECTOR 1/1 */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+#last_name {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Could combine but separated for positioning */
+#email {
+    background-color: #f9f9f9;
+    color: #333;
+    margin-right: -9%;
+}
+
+#confirm_email {
+    background-color: #f9f9f9;
+    color: #333;
+    margin-right: 7%;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 12.5%;
+    padding: 1% 2%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2779b7;
+}
+
+.form-container {
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.michigan-icon {
+    width: 25%;
+    height: 25%;
+    margin-left: 5%;
+}
+
+.contact-info {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -15%;
+    font-size: 20px;
+}
+
+.footer-pages-1 {
+    color: black;
+    text-decoration: none;
+    margin-left: 45%;
+    list-style: none;
+}
+
+.fp1 {
+    margin-bottom: 20px;
+}
+
+.fp1 a {
+    color: darkgreen;
+}
+
+.footer-pages-2 {
+    color: black;
+    text-decoration: none;
+    margin-left: 55%;
+    list-style: none;
+    margin-top: -8.25%;
+}
+
+.fp2 {
+    margin-bottom: 20px;
+}
+
+.fp2 a {
+    color: darkgreen;
+}
+
+
+.footer-pages-3 {
+    color: black;
+    text-decoration: none;
+    margin-left: 68.5%;
+    list-style: none;
+    margin-top: -8.25%;
+}
+
+.fp3 {
+    margin-bottom: 20px;
+}
+
+.fp3 a {
+    color: darkgreen;
+}
+
+.insta-icon {
+    position: absolute;
+    width: 6.5%;
+    height: 10%;
+    margin-left: 8%;
+    margin-top: -5%;
+}
+
+.facebook-icon {
+    position: absolute;
+    width: 6%;
+    height: 12%;
+    margin-left: 16%;
+    margin-top: -5.5%;
+}
+
+.x-icon {
+    position: absolute;
+    width: 8%;
+    height: 12%;
+    margin-left: 23.5%;
+    margin-top: -5.5%;
+}
+
+.youtube-icon {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    margin-left: 31%;
+    margin-top: -5%;
+}

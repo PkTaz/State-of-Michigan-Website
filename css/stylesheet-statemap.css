@@ -1,0 +1,280 @@
+.Main-Logo {
+    display: flex;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+
+}
+
+.main-header-text {
+    font-size: 500%;
+    text-align: center;
+    margin-top: -8%;
+}
+
+.page-links {
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    margin-left: 12%;
+    
+}
+
+.page-links li {
+    margin-left: 10%;
+}
+
+.nav-pages {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.separator {
+    border-top: 2px solid #ccc; 
+    margin: 30px 200px; 
+}
+
+.state-map {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.ten-cities {
+    position: absolute;
+    margin-left: 78%;
+    font-size: 300%;
+}
+
+.ten-cities li {
+    margin-top: 15%;
+}
+
+.aside-title {
+    position: absolute;
+    margin-left: 76%;
+}
+
+.source-link {
+    font-size: 90%;
+    margin-left: 77%;
+}
+
+.num1 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 8%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num2 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 13.5%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num3 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 19%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num4 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 24.5%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num5 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 29.5%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num6 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 35%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num7 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 41%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num8 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 46%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num9 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 51.75%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.num10 {
+    color: grey;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 57%;
+    text-shadow: -1px 1px 0 #000;
+}
+
+.table-title {
+    text-align: center;
+}
+
+.populations-for-ref {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.separator2 {
+    border-bottom: 2px solid #ccc; 
+    margin: 30px 20px; 
+}
+
+.email-logo {
+    width: 10%;
+    height: 10%;
+}
+
+.email {
+    margin-left: 11%;
+    margin-top: -7%;
+}
+
+.insta-logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+.insta-name {
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.x-logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.x-name {
+    margin-left: 10%;
+    margin-top: -6%;
+}
+
+.youtube-logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.youtube-name {
+    margin-left: 10%;
+    margin-top: -4%;
+}
+
+.facebook-logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.facebook-name {
+    margin-left: 10%;
+    margin-top: -6%;
+}
+
+.footer-pages-1 {
+    font-size: 120%;
+    color: black;
+    list-style: none;
+    margin-left: 32%;
+    margin-top: -10%;
+    margin-right: 65%;
+}
+
+.footer-pages-1 li {
+    margin-top: 20px;
+}
+
+.footer-pages-1 a {
+        color: darkgreen;
+    
+}
+
+.footer-pages-2 {
+    font-size: 120%;
+    list-style: none;
+    margin-left: 42%;
+    margin-top: -9%;
+    margin-right: 30%;
+}
+
+.footer-pages-2 li {
+    margin-top: 20px;
+}
+
+.footer-pages-2 a {
+    color: darkgreen;
+}
+
+.footer-pages-3 {
+    color: black;
+    margin-left: 55%;
+    margin-right: 25%;
+    list-style: none;
+    margin-top: -9%;
+    font-size: 120%;
+}
+
+.footer-pages-3 a {
+    color: darkgreen;
+}
+
+.footer-pages-3 li {
+    margin-top: 20px;
+}
+
+.state-image {
+    width: 25%;
+    height: 50%;
+    margin-left: 75%;
+    margin-top: -25%;
+}
